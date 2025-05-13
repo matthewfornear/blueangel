@@ -1,0 +1,14 @@
+# MYC response module
+# Function: this promoter causes transcription of the mRNA only in MYC-high cells
+# Method: uses 4 tandem E-box motifs (CACGTG) which are bound by c-Myc
+# These are placed upstream of a minimal promoter (e.g., TATA box)
+# Source: synthetic promoters in use for MYC-responsive expression (literature + plasmid databases)
+
+# Example synthetic MYC-responsive promoter sequence:
+CACGTGCACGTGCACGTGCACGTGTATAAAAG
+
+# Notes:
+# - CACGTG = E-box motif (bound by c-Myc)
+# - 4x repeats = increases sensitivity to MYC
+# - TATAAAAG = minimal promoter core to allow transcription start
+# - Place this upstream of the entire RNA construct if delivering via plasmid or DNA

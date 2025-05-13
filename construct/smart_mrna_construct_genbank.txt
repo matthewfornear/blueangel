@@ -1,0 +1,21 @@
+LOCUS       smart_mrna_construct   1350 bp    DNA     circular
+DEFINITION  Synthetic plasmid for logic-gated GFP expression in MYC+/ROS+/let7− cells.
+FEATURES             Location/Qualifiers
+     promoter        1..60
+                     /label="Synthetic MYC promoter"
+                     /note="4x E-box + TATA core"
+     5'UTR           61..120
+                     /label="ROS riboswitch"
+     CDS             121..900
+                     /label="GFP"
+                     /note="Enhanced Green Fluorescent Protein"
+     3'UTR           901..1000
+                     /label="let-7 response element x4"
+     polyA_signal    1001..1100
+                     /label="SV40 polyA signal"
+     ORIGIN
+        1 cacgtgcacg tgcacgtgca cgtgtataaa agggaagagg aggaagaggag gaacaguaca
+       61 cgtagctgta ctcgga tgctac auggtgagca agggcgagga gctgttcacc ggggtggtgc
+      ... (insert full converted GFP RNA sequence here)
+      901 aactauacaa ccuacuaccu caaactauac aaccuacuac cucaaactau acaaccuacu
+     1001 aataaaagca tttttttttt tttttttttt tttttttttt tttttttttt

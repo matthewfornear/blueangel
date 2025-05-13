@@ -1,0 +1,76 @@
+**Provisional Patent Draft: Synthetic Logic-Gated mRNA Expression System**
+
+**Title:**
+Synthetic mRNA Expression System for Tumor-Specific Logic-Gated Gene Activation
+
+**Applicant:**
+\[Your Full Name]
+
+**Inventor:**
+\[Your Full Name]
+
+**Field of Invention:**
+This invention relates to synthetic biology, molecular therapeutics, and genetic engineering. More specifically, it concerns the design and function of a synthetic mRNA expression system that activates transcription and translation only under tumor-specific intracellular conditions.
+
+**Background:**
+Modern cancer treatments struggle to distinguish between tumor and healthy cells. Single-marker therapies often fail due to expression overlap between malignant and normal tissues. A more robust approach is to require multiple tumor-specific signals to be present before a therapeutic payload is expressed. This invention achieves that via a logic-gated synthetic mRNA circuit.
+
+**Summary of the Invention:**
+The invention provides a modular genetic construct that integrates three cancer-associated intracellular conditions as logical inputs:
+
+1. **Elevated MYC activity** (sensed by a synthetic MYC-responsive promoter)
+2. **Elevated reactive oxygen species (ROS)** (sensed by a riboswitch embedded in the 5' UTR)
+3. **Suppressed let-7 microRNA levels** (sensed by four tandem let-7 response elements in the 3' UTR)
+
+Only when all three conditions are met will the mRNA survive and be translated, producing the intended protein payload.
+
+**Detailed Description:**
+
+* **Promoter:**
+
+  * Sequence: CACGTGCACGTGCACGTGCACGTGTATAAAAG
+  * Composed of four E-box motifs (CACGTG) and a minimal TATA box core promoter.
+  * Responds to elevated MYC activity, common in cancer cells.
+
+* **5' UTR ROS Riboswitch:**
+
+  * Sequence: GGAAGAGGAGGAAGAGGAGGAACAGTACACGTAGCTGTACTCGGATGCTAC
+  * Folds into a structure that blocks the ribosome binding site unless ROS levels are elevated.
+
+* **Coding Sequence (Payload):**
+
+  * Example: Enhanced Green Fluorescent Protein (GFP) coding sequence.
+  * Can be substituted with therapeutic genes such as Diphtheria toxin A (DTA), Granzyme B, or TRAIL.
+
+* **3' UTR let-7 Response Elements:**
+
+  * Sequence (repeated 4x): AACTATACAACCTACTACCTCA
+  * Matches the seed region of let-7a microRNA, promoting degradation in non-cancerous cells.
+
+* **Polyadenylation Signal:**
+
+  * Sequence: AATAAAAGCATTTTTTTTTTTTTTTTTTTTTTTTTTT
+  * Ensures proper mRNA termination and export.
+
+**Claims:**
+
+1. A nucleic acid construct comprising:
+
+   * (a) a MYC-responsive promoter;
+   * (b) a 5' untranslated region (UTR) containing a ROS-activated riboswitch;
+   * (c) a coding sequence encoding a detectable or therapeutic protein;
+   * (d) a 3' UTR containing multiple microRNA let-7 binding sites.
+
+2. The construct of claim 1, wherein the coding sequence encodes green fluorescent protein (GFP).
+
+3. The construct of claim 1, wherein the coding sequence encodes a cytotoxic protein selected from the group consisting of diphtheria toxin A, TRAIL, or Granzyme B.
+
+4. The construct of claim 1, wherein expression occurs only when MYC activity is elevated, ROS levels are elevated, and let-7 levels are low.
+
+5. A method of selectively expressing a gene in tumor cells, comprising introducing the construct of claim 1 into a cell population and allowing expression only in cells exhibiting the specified input conditions.
+
+**Appendix:**
+
+* Full GenBank sequence export (attached)
+* mRNA folding analysis report (dot-bracket + MFE)
+* Benchling plasmid map screenshots
