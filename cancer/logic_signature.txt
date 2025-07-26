@@ -1,0 +1,1 @@
+IF (MYC is high) AND (let-7 is low) AND (ROS is high) THEN express [KILL_PAYLOAD].

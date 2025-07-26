@@ -1,9 +1,0 @@
-Cancer Trait Pool:
-Behavior	Sensor Method
-High MYC expression	MYC-responsive promoter or aptamer
-Low let-7 miRNA	let-7 miRNA binding site in 3’ UTR
-High ROS (oxidative stress)	ROS-activated riboswitch
-Hypoxia (low oxygen)	HIF1a-responsive element
-Low p53 activity	p53-repressed promoter
-Elevated glycolysis	Sensed via LDHA promoter or glucose sensors
-Rapid proliferation	E2F1 promoter activation

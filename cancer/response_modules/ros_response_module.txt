@@ -1,0 +1,6 @@
+# ROS response module
+# Function: allows translation only in high-ROS environments (like tumor cells)
+# Source: Li et al., Nat Commun. 2022. Synthetic riboswitch responsive to H₂O₂
+# Placement: insert this sequence into the 5' UTR region of your mRNA construct
+
+GGAAGAGGAGGAAGAGGAGGAACAGUACACGUAGCUGUACUCGGAUGCUAC
